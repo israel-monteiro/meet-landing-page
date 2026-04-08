@@ -1,0 +1,25 @@
+:root {
+    --spacing-50: 4px;
+    --spacing-100: 8px;
+    --spacing-200: 16px;
+    --spacing-300: 24px;
+    --spacing-400: 32px;
+    --spacing-500: 40px;
+    --spacing-600: 48px;
+    --spacing-700: 56px;
+    --spacing-800: 64px;
+    --spacing-900: 72px;
+    --spacing-1000: 80px;
+    --spacing-1400: 112px;
+
+    --color-white: #FAFAFA;
+    --color-cyan-300: #8FE3F9;
+    --color-cyan-400: #71C0D4;
+    --color-cyan-600: #4D96A9;
+    --color-purple-300: #D9B8FF;
+    --color-purple-400: #B18BDD;
+    --color-purple-600: #855FB1;
+    --color-slate-300: #D1D1DF;
+    --color-slate-600: #87879D;
+    --color-slate-900: #28283D;
+}
