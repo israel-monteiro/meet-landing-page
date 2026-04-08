@@ -1,4 +1,4 @@
-@media (min-width: 425px) {
+@media (min-width: 26.5625rem) {
     .hero {
         gap: var(--spacing-900);
         padding-bottom: var(--spacing-800);
@@ -45,7 +45,7 @@
         background-position: center;
         background-repeat: no-repeat;
         width: 100%;
-        min-height: 320px;
+        min-height: 32rem;
     }
 
     .footer-content .text-body {
@@ -53,7 +53,11 @@
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 48.0625rem) {
+    .header {
+        margin-top: var(--spacing-1000);
+    }
+
     .hero {
         display: grid;
         grid-template-columns: auto 1fr auto;
@@ -79,7 +83,7 @@
     }
 
     .hero-content {
-        min-width: 448px;
+        min-width: 44.8rem;
         gap: var(--spacing-400);
     }
 
@@ -124,13 +128,13 @@
 
         padding: 0;
     }
-    
+
     .footer-content-inner h3 {
         text-align: left;
         font-size: 4rem;
         max-width: 15ch;
     }
-    
+
     .footer-content-inner .text-body {
         text-align: left;
         max-width: 30ch;

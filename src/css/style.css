@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: "Red Hat Display";
+    font-family: "Red Hat Display", sans-serif;
     font-style: normal;
     min-height: 100vh;
 
@@ -124,8 +124,8 @@ body {
 
 
 .btn-primary:focus-visible {
-    outline: 2px solid var(--color-cyan-400);
-    outline-offset: 2px;
+    outline: 0.2rem solid var(--color-cyan-400);
+    outline-offset: 0.2rem ;
 }
 
 .btn-tertiary:hover,
@@ -135,8 +135,8 @@ body {
 
 .btn-tertiary:focus-visible,
 .btn-secondary:focus-visible {
-    outline: 2px solid var(--color-purple-400);
-    outline-offset: 2px;
+    outline: 0.2rem  solid var(--color-purple-400);
+    outline-offset: 0.2rem ;
 }
 
 .btn:active {
@@ -187,8 +187,8 @@ body {
 }
 
 .section-divider-line {
-    border: 1px solid var(--color-slate-300);
-    width: 1px;
+    border: 0.1rem solid var(--color-slate-300);
+    width: 0.1rem;
     height: var(--spacing-1000);
 
 }
@@ -200,8 +200,8 @@ body {
     align-items: center;
     width: var(--spacing-700);
     height: var(--spacing-700);
-    border-radius: 999px;
-    border: 1px solid var(--color-slate-300);
+    border-radius: 99.9rem;
+    border: 0.1rem solid var(--color-slate-300);
     background: var(--color-white);
 
     font-size: 1.6rem;
